@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #439467;
+}
+
+h1 {
+    color: #217346;
+    font-size: 22px;
+}
+
+p {
+    padding: 5px;
+    color: #808080;
+    font-size: 14px;
+}
+
+p::after {
+    content: "█";
+}
+
+p:first-letter {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    padding: 0px;
+    border-collapse: collapse;
+    border: 1px solid #BEBEBE;
+}
+
+table th#cabecalho {
+    width: 100%;
+    padding: 10px 5px;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+table td#menu {
+    width: 20%;
+    vertical-align: text-top;
+    background-color: #217346;
+    border-right: 1px solid #BEBEBE;
+}
+
+table td#menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+table td#menu ul li {
+    list-style: none;
+    padding: 10px 0px 10px 20px;
+}
+
+table td#menu ul #selecionado {
+    background-color: #439467;
+}
+
+
+table td#menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+table td#menu ul li:hover {
+    cursor: pointer;
+    background-color: #0A6332;
+}
+
+table td#menu ol {
+    list-style: none;
+    padding: 0px;
+}
+
+table td#menu ol li {
+    margin: 0px;
+    list-style: none;
+    padding: 10px 0px 10px 40px;
+}
+
+table td#menu ol li:hover {
+    cursor: pointer;
+    background-color: #0A6332;
+}
+
+table td#menu ol li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+table td#corpo {
+    width: 75%;
+    padding: 5px 10px;
+    text-align: justify;
+    vertical-align: text-top;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+table th#rodape {
+    width: 100%;
+    padding: 10px;
+    background-color: #217346;
+}
+
+table th#rodape h2 {  
+    float: left;
+    color: #DDF0E0;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+table th#rodape a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-top: 5px;
+    text-indent: -99999px;
+}
+
+table th#rodape ul {
+    float: right;
+    list-style: none;
+    bottom: 0;
+    right: 0;
+}
+
+table th#rodape ul li {    
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+.github {
+    background-image: url(https://github.com/favicon.ico);
+    background-size: 32px 32px;
+}
+
+.gplus {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/free-social-icons/67/google_circle_color-128.png);
+    background-size: 32px 32px;
+}
+
+.steam {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/256/steam.png);
+    background-size: 32px 32px;
+}
+
+.telegram {
+    background-image: url(https://raw.githubusercontent.com/telegramdesktop/tdesktop/master/Telegram/Telegram/Images.xcassets/Icon.iconset/icon_256x256@2x.png);
+    background-size: 32px 32px;
+}
