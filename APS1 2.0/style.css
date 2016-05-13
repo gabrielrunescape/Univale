@@ -16,16 +16,18 @@ h1 {
 }
 
 p {
-    padding: 5px;
+    padding: 5px 0px;
     color: #808080;
     font-size: 14px;
 }
 
-p::after {
-    content: "█";
+p.ultimo::after {
+    content: " # ";
+    color: black;
+    background-color: black;
 }
 
-p:first-letter {
+p#primeiro:first-letter {
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -40,7 +42,14 @@ table {
 table th#cabecalho {
     width: 100%;
     padding: 10px 5px;
+    background-color: #DDF0E0;
     border-bottom: 1px solid #BEBEBE;
+}
+
+table th#cabecalho span {
+    text-align: right;
+    color: #439467;
+    font-size: 20px;
 }
 
 table td#menu {
@@ -56,12 +65,41 @@ table td#menu ul {
     padding: 0px;
 }
 
-table td#menu ul li {
-    list-style: none;
+table td#menu ul li{
+    list-style: none;    
     padding: 10px 0px 10px 20px;
 }
 
+table td#menu ul li:hover {
+    cursor: pointer;
+    background-color: #0A6332;
+}
+
+table td#menu ul li#submenu {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+table td#menu ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+table td#menu ol li {
+    list-style: none;    
+    color: #FFFFFF;
+    padding: 10px 0px 10px 50px;
+}
+
+table td#menu li#submenu ol li:hover {
+    cursor: pointer;
+    background-color: #439467;
+}
+
 table td#menu ul #selecionado {
+    color: #FFFFFF;
     background-color: #439467;
 }
 
@@ -76,27 +114,6 @@ table td#menu ul li:hover {
     background-color: #0A6332;
 }
 
-table td#menu ol {
-    list-style: none;
-    padding: 0px;
-}
-
-table td#menu ol li {
-    margin: 0px;
-    list-style: none;
-    padding: 10px 0px 10px 40px;
-}
-
-table td#menu ol li:hover {
-    cursor: pointer;
-    background-color: #0A6332;
-}
-
-table td#menu ol li a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
 table td#corpo {
     width: 75%;
     padding: 5px 10px;
@@ -105,13 +122,67 @@ table td#corpo {
     border-bottom: 1px solid #BEBEBE;
 }
 
+table td#corpo ul {
+    list-style: none;
+    padding: 0px;
+}
+
+table td#corpo ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+table td#corpo ul li input[type=text], input[type=email] {
+    font-size: 22px;
+    padding: 2px 5px;
+    color: #808080;
+    font-weight: normal;
+    width: 100%;
+}
+
+table td#corpo ul li textarea {
+    font-size: 22px;
+    padding: 2px 5px;
+    color: #808080;
+    font-weight: normal;
+    width: 100%;
+    height: 128px;
+}
+
+table td#corpo ul li input[type=submit] {
+    float: right;
+    width: 150px;
+    height: 50px;
+    color: #217346;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 10px;
+    background-color: #DDF0E0;
+    border: 1px solid #217346;
+}
+
+figure img {
+    width: 98%;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    margin: 4px 4px 2px 4px; 
+    border: 1px transparent red;
+}
+
+figcaption {
+    padding-top: 2px; 
+    padding-bottom: 15px;
+    color: #DDF0E0;
+}
+
 table th#rodape {
     width: 100%;
     padding: 10px;
     background-color: #217346;
 }
 
-table th#rodape h2 {  
+table th#rodape span {  
     float: left;
     color: #DDF0E0;
     font-size: 20px;
