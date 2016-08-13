@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0px;
+    pasddding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #BEBEBE;
+    background-color: #DDF0E0;
+    height: 48px;
+}
+
+header h1 {
+    float: left;
+    margin: 10px 0px 10px 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+header a {
+    text-decoration: none;
+    color: #217346;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #0A6332;
+}
+
+header ul {
+    float: right;
+    margin: 13px 12px 13px 0px;
+    list-style: none;
+}
+
+header ul li {    
+    padding: 0px 2px;
+    display: inline-block;
+}
+
+main {
+    background-color: #217346;
+}
+
+#menu-lateral {
+    float: left;
+    width: 132px;
+    background-color: #217346;
+}
+
+#menu-lateral ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu-lateral ul li {
+    list-style: none;
+    padding: 10px 0px 10px 20px;
+}
+
+#menu-lateral ul #selecionado {
+    background-color: #439467;
+}
+
+
+#menu-lateral ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#menu-lateral ul li:hover {
+    background-color: #0A6332;
+}
+
+#menu-lateral ol {
+    list-style: none;
+    padding: 0px;
+}
+
+#menu-lateral ol li {
+    margin: 0px;
+    list-style: none;
+    padding: 10px 0px 10px 40px;
+}
+
+#menu-lateral ol li:hover {
+    background-color: #0A6332;
+}
+
+#menu-lateral ol li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#corpo {
+    margin-left: 132px;
+    width: auto;
+    background-color: #FFFFFF;    
+    border-left: 1px solid #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+#corpo h1 {
+    color: #808080;
+    padding: 10px 15px;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+#corpo h2 {
+    color: #808080;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#corpo p {
+    color: #808080;
+    padding: 5px 15px;
+    text-align: justify;
+}
+
+#corpo a {
+    //color: #DDF0E0;
+    color: #439467;
+}
+
+img {
+    width: 95%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+footer {
+    background-color: #217346;
+    height: 64px;
+}
+
+footer h1 {
+    float: left;
+    margin: 10px 0px 10px 20px;
+    font-size: 26px;
+    font-weight: normal;
+    color: #DDF0E0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #DDF0E0;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #0A6332;
+}
+
+footer ul {
+    float: right;
+    margin: 18px 12px;
+    list-style: none;
+}
+
+footer ul li {    
+    padding: 0px 5px;
+    display: inline-block;
+}

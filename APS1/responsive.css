@@ -1,0 +1,151 @@
+@media screen and (min-width: 769px) {
+    #primaria {
+        width: 800px; 
+        margin: auto;
+        border-left: 1px solid #BEBEBE;
+        border-right: 1px solid #BEBEBE;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    div #primaria { 
+        width: 740px; 
+        margin: auto; 
+        border-left: 1px solid #BEBEBE;
+        border-right: 1px solid #BEBEBE;
+    }
+    
+    footer {
+        height: auto;
+    }
+    
+    footer h1 {
+        margin: 0px;
+        float: none;
+        padding: 5px 0px;
+        text-align: center;
+    }
+    
+    footer ul {
+        margin: 0px;
+        padding: 0px;
+        float: none;
+        list-style: none;
+    }
+    
+    footer ul li {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0px;
+        display: inherit;
+    }
+    
+    footer ul li:hover {
+        background-color: #0A6332;
+    }
+    
+    footer ul li a:hover {
+        color: #DDF0E0;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+   div #primaria { 
+       width: 450px; 
+       margin: auto;       
+       border-left: 1px solid #BEBEBE;
+       border-right: 1px solid #BEBEBE;
+    }  
+    
+    header ul {
+        display: none;
+    }
+    
+    footer {
+        height: auto;
+    }
+    
+    footer h1 {
+        margin: 0px;
+        float: none;
+        padding: 5px 0px;
+        text-align: center;
+    }
+    
+    footer ul {
+        margin: 0px;
+        padding: 0px;
+        float: none;
+        list-style: none;
+    }
+    
+    footer ul li {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0px;
+        display: inherit;
+    }
+    
+    footer ul li:hover {
+        background-color: #0A6332;
+    }
+    
+    footer ul li a:hover {
+        color: #DDF0E0;
+    }
+}
+ 
+@media (max-width: 320px) {
+   div #primaria { 
+       width: 275px; 
+       margin: auto;       
+       border-left: 1px solid #BEBEBE;
+       border-right: 1px solid #BEBEBE;
+    }
+    
+    #menu-lateral {
+        display: none;
+    }
+    
+    #corpo {
+        width: auto;
+        margin: 0px;
+    }
+    
+    header ul {
+        visibility: hidden;
+    }
+    
+    footer {
+        height: auto;
+    }
+    
+    footer h1 {
+        margin: 0px;
+        float: none;
+        padding: 5px 0px;
+        text-align: center;
+    }
+    
+    footer ul {
+        margin: 0px;
+        padding: 0px;
+        float: none;
+        list-style: none;
+    }
+    
+    footer ul li {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0px;
+        display: inherit;
+    }
+    
+    footer ul li:hover {
+        background-color: #0A6332;
+    }
+    
+    footer ul li a:hover {
+        color: #DDF0E0;
+    }
+}
