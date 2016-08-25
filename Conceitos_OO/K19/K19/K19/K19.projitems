@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{3490A036-54C4-42B9-B264-2A109DB47542}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>K19</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Conta.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CartaoDeCredito.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Agencia.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainK19.cs" />
+  </ItemGroup>
+</Project>
